@@ -1,0 +1,56 @@
+.ver-todos{
+    background-color: $GRIS;
+}
+.normal{
+    background-color: $NORMAL;
+}
+.fire{
+    background-color: $ROJO-FUEGO;
+}
+.water{
+    background-color: $AZUL;
+}
+.grass{
+    background-color: $VERDE;
+}
+.electric{
+    background-color: $AMARILLO;
+}
+.ice{
+    background-color: $CELESTE;
+}
+.fighting{
+    background-color: $ROJO-OSCURO;
+}
+.poison{
+    background-color: $VIOLETA;
+}
+.ground{
+    background-color: $MARRON;
+}
+.flying{
+    background: linear-gradient(180deg, $CELESTE 50%, $NORMAL 50%);
+    color: $NEGRO;
+}
+.psychic{
+    background-color: $ROSA;
+}
+.bug{
+    background-color: $VERDE-OSCURO;
+}
+.rock{
+    background-color: $MARRON-TIERRA;
+}
+.ghost{
+    background: $VIOLETA-OSCURO
+}
+.dragon{
+    background: linear-gradient(180deg, $CELESTE 50%, $ROJO-OSCURO 50%);
+}
+.steel{
+    background-color: $GIRS-ACERO;
+}
+.fairy{
+    background: $ROSA-CLARO
+}
+

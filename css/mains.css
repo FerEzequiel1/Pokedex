@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&family=Poppins:wght@300&family=Roboto:wght@500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F0FFF0;
+}
+body header nav {
+  display: flex;
+  background-color: #F5F5DC;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  box-shadow: 0 0 2rem -1rem #000;
+}
+body header nav img {
+  width: 12%;
+  height: 12%;
+  margin-left: -85%;
+}
+body header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  width: 55rem;
+  flex-wrap: wrap;
+}
+body header nav ul li {
+  list-style: none;
+}
+body header nav ul li button {
+  font-size: 1.22rem;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 16px;
+  transition: box-shadow 0.2s ease;
+  box-shadow: 0 0 0.5rem #000;
+}
+body header nav ul li button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem #000;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+body main .pokemon-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 1rem;
+}
+body main .pokemon-container .tarjeta {
+  background-color: #C4DFDF;
+  height: 300px;
+  padding: 2rem;
+  justify-content: center;
+}
+body main .pokemon-container .tarjeta .imagen-pokemon {
+  width: 100%;
+  max-width: 11rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: solid #FFF 3px;
+}
+body main .pokemon-container .tarjeta p {
+  margin: 0;
+  margin-top: 5px;
+}
+body main .pokemon-container .tarjeta .datos {
+  margin-top: -10px;
+}
+body main .pokemon-container .tarjeta .datos .nombre {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+  font-size: 1rem;
+}
+body main .pokemon-container .tarjeta .datos .razas {
+  margin-top: -10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+body main .pokemon-container .tarjeta .datos .razas .span-raza {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  border-radius: 15px;
+}
+
+.ver-todos {
+  background-color: #BFCCB5;
+}
+
+.normal {
+  background-color: #f2ddb9;
+}
+
+.fire {
+  background-color: #ff5e01;
+}
+
+.water {
+  background-color: #4592c4;
+}
+
+.grass {
+  background-color: #A8DF8E;
+}
+
+.electric {
+  background-color: #F8DE22;
+}
+
+.ice {
+  background-color: #51c4e7;
+}
+
+.fighting {
+  background-color: #b9581f;
+}
+
+.poison {
+  background-color: #AE90FF;
+}
+
+.ground {
+  background-color: #CBB279;
+}
+
+.flying {
+  background: linear-gradient(180deg, #51c4e7 50%, #f2ddb9 50%);
+  color: #000;
+}
+
+.psychic {
+  background-color: #f366b9;
+}
+
+.bug {
+  background-color: #7aac62;
+}
+
+.rock {
+  background-color: #a38c21;
+}
+
+.ghost {
+  background: #7b62a3;
+}
+
+.dragon {
+  background: linear-gradient(180deg, #51c4e7 50%, #b9581f 50%);
+}
+
+.steel {
+  background-color: #9eb7b8;
+}
+
+.fairy {
+  background: #fdb9e9;
+}/*# sourceMappingURL=mains.css.map */
