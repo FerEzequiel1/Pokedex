@@ -27,14 +27,17 @@ function mostrarPokemones(data){
     const div = document.createElement("div")
     div.classList.add("tarjeta")
     div.innerHTML=`
-        <img src="${data.sprites.other["official-artwork"].front_default}" alt="${data.name}" class="imagen-pokemon">
-        <p>#${id}</p>
-        <div class="datos">
-        <h5 class="nombre">${data.name}</h5>
-        <div class="razas">
-        ${tipo}
-        </div>
-        </div>
+        <div class="contenido ">
+            <div class="contender-imagen">
+                <img src="${data.sprites.other["official-artwork"].front_default}" alt="${data.name}" class="imagen-pokemon">
+            </div>
+            <div class="datos">
+                <p>#${id}</p>
+                <h2 class="nombre">${data.name}</h2>
+            </div> 
+            <div class="razas">
+                ${tipo}
+            </div>
     `
     CONTAINER.append(div)
 }
@@ -60,4 +63,21 @@ BOTONES.forEach(boton => boton.addEventListener("click",(e) =>{
     }
 
 }))
+
+
+const BTN_MENU = document.querySelector("#btn-nav-abrir");
+const btn_cerrar = document.querySelector("#btn-cerrar");
+const UL = document.querySelector("#lista-clases");
+
+BTN_MENU.addEventListener("click",()=>{
+    btn_cerrar.classList.add("visible")
+    UL.classList.add("visible")
+})
+
+btn_cerrar.addEventListener("click",()=>{
+    btn_cerrar.classList.remove("visible")
+    UL.classList.remove("visible")
+    btn_cerrar.classList.add("escondido")
+    UL.classList.add("escondido")
+})
 

@@ -1,0 +1,12 @@
+$breakpoints:(
+    ss:420px,
+    sm: 570px,
+    md:880px,
+);
+
+@mixin dispositivo($pato){
+    @media screen and ( max-width: map-get($breakpoints, $pato)){
+        @content;
+    }
+    
+}
